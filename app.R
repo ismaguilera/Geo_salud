@@ -66,6 +66,7 @@ mapa2<-st_sf(mapa2) # Convertie el dataframe de data.table a sf
 paleta2<-colorBin(palette = 'Blues',domain = PCR_covid$Tasa,bins = bins) # Paleta de colores para el mapa
 
 
+
 # leaflet(mapa)%>%
 #     addProviderTiles(provider = "OpenStreetMap.Mapnik")%>%
 #     addPolygons(color = ~paleta(Porcentaje_Primeras_dosis),
